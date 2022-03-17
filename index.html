@@ -41,18 +41,18 @@
             <h1>Price Range</h1>
             <div class="price-container">
                 <div class="underPrice">
-                    <div id="minP">0</div>
-                    <div id="maxP">100</div>
+                    <div id="minP">100</div>
+                    <div id="maxP">1000</div>
                 </div>
-                <input type="number" min="10" max="100" value="0" placeholder="Enter Min Price" id="minPrice"
+                <input type="number" min="100" max="1000" value="0" placeholder="Enter Min Price" id="minPrice"
                     onkeyup="setFilters('minPrice', this.value), filter()">
             </div>
             <div class="price-container">
                 <div class="underPrice">
-                    <div id="lowMaxPriceLabel">0</div>
-                    <div id="maxP">100</div>
+                    <div id="lowMaxPriceLabel">100</div>
+                    <div id="maxP">1000</div>
                 </div>
-                <input type="number" min="10" max="100" value="0" placeholder="Enter Max Price" id="maxPrice"
+                <input type="number" min="100" max="1000" value="0" placeholder="Enter Max Price" id="maxPrice"
                     onkeyup="setFilters('maxPrice', this.value), filter()">
             </div>
         <button style="margin-top: 30px; width: 100%;" onclick="closeFilter()">Close</button>
